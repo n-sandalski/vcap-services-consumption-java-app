@@ -1,0 +1,1 @@
+# vcap-services-consumption-java-app
