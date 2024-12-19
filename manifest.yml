@@ -1,0 +1,9 @@
+---
+applications:
+  - name: c5264257-vcap-services-consumption-java-app
+    memory: 2048
+    instances: 1
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
+    path: target/java-security-usage.war
+    command: python python_server_app.py
